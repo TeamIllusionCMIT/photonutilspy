@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "photonutilspy"
+version = "0.1.0"
+description = ""
+authors = ["te <thrzl@icloud.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.13"
+multipledispatch = "^1.0.0"
+robotpy = "^2024.3.1.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.2.0"
+ruff = "^0.3.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
